@@ -1,0 +1,38 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-actions {
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-lg) 0;
+}
+
+.about-btn {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  padding: 1rem 3rem;
+  border: 1px solid var(--text-black);
+  transition: all 0.3s ease;
+}
+
+.about-btn:hover {
+  background-color: var(--text-black);
+  color: white;
+}
+
+main {
+  flex: 1;
+}
+
+.footer {
+  padding: var(--spacing-lg) 0 var(--spacing-md);
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  opacity: 0.4;
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
