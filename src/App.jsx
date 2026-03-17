@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import ProjectGrid from './components/ProjectGrid'
 import SobreMi from './components/SobreMi'
+import BackgroundMarks from './components/BackgroundMarks'
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <div className="app">
+      <BackgroundMarks />
       {view === 'main' ? (
         <>
           <Header projectCount={projectCount} pageCount={pageCount} />

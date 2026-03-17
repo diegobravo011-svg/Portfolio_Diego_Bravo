@@ -8,7 +8,7 @@ const Hero = () => {
         Proyectos<span className="dot">.</span>
       </h1>
       <div className="hero-description">
-        <p>Una curación de los trabajos fotográficos más destacados, desde eventos sociales hasta fotografía comercial y editorial.</p>
+        <p>Selección de mi trabajo visual más destacado. Un recorrido por mis proyectos en fotografía social, comercial y editorial.</p>
       </div>
     </section>
   );

@@ -5,10 +5,27 @@
   width: 100%;
   height: 100%;
   background-color: var(--bg-white);
+  background-image: url('/topography.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 70% auto;
+  background-attachment: fixed;
   z-index: 1000;
   overflow-y: auto;
   padding: var(--spacing-lg) 0;
   color: var(--text-black);
+}
+
+.sobre-mi-page::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.7); /* Capa extra de sutileza */
+  z-index: -1;
+  pointer-events: none;
 }
 
 .sobre-mi-content {
