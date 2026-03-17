@@ -76,7 +76,7 @@
   gap: var(--spacing-lg);
   margin-top: var(--spacing-lg);
   padding-top: var(--spacing-lg);
-  border-top: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .contact-col h3 {
@@ -104,7 +104,9 @@
 }
 
 @media (max-width: 768px) {
-  .bio-container, .contact-footer {
+
+  .bio-container,
+  .contact-footer {
     grid-template-columns: 1fr;
   }
 }

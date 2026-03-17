@@ -68,8 +68,12 @@ const MountainHero = ({ onEnter }) => {
         });
 
         const pointsMesh = new THREE.Points(geometry, material);
+        
+        // Reducir el tamaño de la malla para que sea más pequeña
         pointsMesh.scale.set(0.65, 0.65, 0.65);
-        pointsMesh.position.y = -0.3; 
+        pointsMesh.position.y = -0.3;
+        pointsMesh.position.x = 0.15; // Desplazamiento a la derecha solicitado
+        
         scene.add(pointsMesh);
 
         let animationFrameId;
