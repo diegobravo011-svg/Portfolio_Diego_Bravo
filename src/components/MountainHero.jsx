@@ -72,7 +72,7 @@ const MountainHero = ({ onEnter }) => {
         // Reducir el tamaño de la malla para que sea más pequeña
         pointsMesh.scale.set(0.65, 0.65, 0.65);
         pointsMesh.position.y = -0.3;
-        pointsMesh.position.x = 0.15; // Desplazamiento a la derecha solicitado
+        pointsMesh.position.x = 0.08; // Ajuste fino para centrar con la palabra "BIENVENIDO"
         
         scene.add(pointsMesh);
 
