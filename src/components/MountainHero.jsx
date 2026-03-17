@@ -111,8 +111,10 @@ const MountainHero = ({ onEnter }) => {
         <div 
             onClick={onEnter}
             style={{ 
-                position: 'relative', 
-                width: '100%', 
+                position: 'fixed', 
+                top: 0,
+                left: 0,
+                width: '100vw', 
                 height: '100vh', 
                 background: '#F5F5F0', 
                 display: 'flex', 
@@ -120,7 +122,8 @@ const MountainHero = ({ onEnter }) => {
                 alignItems: 'center', 
                 justifyContent: 'center', 
                 overflow: 'hidden',
-                cursor: 'pointer'
+                cursor: 'pointer',
+                zIndex: 9999
             }}
         >
             
