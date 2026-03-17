@@ -23,7 +23,7 @@
 
 .welcome-title {
   font-size: clamp(2.5rem, 8vw, 6rem);
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 0.1em;
   color: var(--text-black);
   margin: 0;

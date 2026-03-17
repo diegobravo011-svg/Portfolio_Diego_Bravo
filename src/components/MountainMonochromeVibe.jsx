@@ -96,8 +96,10 @@ const MountainMonochromeVibe = () => {
         return () => {
             window.removeEventListener('resize', handleResize);
             cancelAnimationFrame(animationFrameId);
-            if(mountRef.current && renderer.domElement) {
-                mountRef.current.removeChild(renderer.domElement);
+            if(mountRef.current) {
+                while(mountRef.current.firstChild) {
+                    mountRef.current.removeChild(mountRef.current.firstChild);
+                }
             }
             geometry.dispose();
             material.dispose();
