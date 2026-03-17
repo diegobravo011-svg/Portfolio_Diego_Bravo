@@ -114,7 +114,7 @@ const MountainHero = ({ onEnter }) => {
                 position: 'relative', 
                 width: '100%', 
                 height: '100vh', 
-                background: '#fdfcf5', 
+                background: '#F5F5F0', 
                 display: 'flex', 
                 flexDirection: 'column', 
                 alignItems: 'center', 
@@ -127,19 +127,23 @@ const MountainHero = ({ onEnter }) => {
             {/* El Canvas en el fondo */}
             <div ref={mountRef} style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0 }} />
             
-            {/* Textos por encima de la montaña */}
+            {/* Título flotando en el medio */}
             <div style={{ position: 'relative', zIndex: 1, textAlign: 'center', pointerEvents: 'none' }}>
                 <h1 style={{ 
                     fontSize: 'clamp(2.5rem, 8vw, 6rem)', 
                     letterSpacing: '0.2em', 
                     color: '#1a1a1a', 
-                    margin: '0 0 10px 0', 
+                    margin: 0, 
                     fontFamily: 'monospace',
-                    fontWeight: '400' // No negrita
+                    fontWeight: '400' 
                 }}>
                     BIENVENIDO
                 </h1>
-                <p style={{ fontSize: '0.7rem', letterSpacing: '0.15em', color: '#666', textTransform: 'uppercase', opacity: 0.6 }}>
+            </div>
+
+            {/* Hint de entrada en el fondo inferior para que no se pise con la montaña */}
+            <div style={{ position: 'absolute', bottom: '10vh', left: 0, width: '100%', textAlign: 'center', zIndex: 1, pointerEvents: 'none' }}>
+                <p style={{ fontSize: '0.75rem', letterSpacing: '0.25em', color: '#1a1a1a', textTransform: 'uppercase', opacity: 0.5 }}>
                     Haz clic en cualquier lugar para entrar
                 </p>
             </div>
