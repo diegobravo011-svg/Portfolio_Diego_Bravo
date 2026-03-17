@@ -3,18 +3,22 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import ProjectGrid from './components/ProjectGrid'
 import SobreMi from './components/SobreMi'
-import BackgroundMarks from './components/BackgroundMarks'
+import WelcomeScreen from './components/WelcomeScreen'
 import './App.css'
 
 function App() {
   const [view, setView] = useState('main'); // 'main' or 'sobre-mi'
+  const [showWelcome, setShowWelcome] = useState(true);
   
-  const projectCount = 6; // Hardcoded for now based on current list
-  const pageCount = 6;    // Matching projects for now
+  const projectCount = 6;
+  const pageCount = 6;
+
+  if (showWelcome) {
+    return <WelcomeScreen onEnter={() => setShowWelcome(false)} />;
+  }
 
   return (
     <div className="app">
-      <BackgroundMarks />
       {view === 'main' ? (
         <>
           <Header projectCount={projectCount} pageCount={pageCount} />
