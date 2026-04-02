@@ -11,7 +11,7 @@ const SobreMi = ({ onBack }) => {
             
             <div className="bio-container">
               <div className="image-wrapper">
-                <img src="/src/assets/hero.png" alt="Diego Bravo" className="profile-img" />
+                <img src="/Foto_Diego/Foto_diego.jpeg" alt="Diego Bravo" className="profile-img" />
                 <div className="profile-info">
                   <span className="profile-name">DIEGO BRAVO</span>
                   <span className="profile-role">Fotógrafo</span>
