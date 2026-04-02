@@ -10,7 +10,7 @@ function App() {
   const [view, setView] = useState('main'); // 'main' or 'sobre-mi'
   const [showWelcome, setShowWelcome] = useState(true);
   
-  const projectCount = 6;
+  const projectCount = 9;
   const pageCount = 6;
 
   if (showWelcome) {
