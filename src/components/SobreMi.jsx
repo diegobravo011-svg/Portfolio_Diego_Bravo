@@ -19,9 +19,8 @@ const SobreMi = ({ onBack }) => {
               </div>
               
               <div className="bio-text">
-                <h2 className="bio-heading">Fotógrafo part-time</h2>
+                <h2 className="bio-heading">Geólogo y Fotógrafo.</h2>
                 <p>
-                  Estudiante de último año de Geología en la Universidad Andrés Bello. 
                   Paralelamente a mi formación científica, he desarrollado una sólida carrera como fotógrafo y videógrafo.
                 </p>
                 <p>
