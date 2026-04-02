@@ -9,7 +9,7 @@ const projects = [
   { id: 5, title: 'VIOLINISTA DANIEL CANDIA', year: '2024-2025', category: 'Editorial', image: '/projects/Violinista Daniel Candia/DSCF5124.jpg', coords: '33°04\'S 71°37\'W' },
   { id: 6, title: 'BARBERÍA BLACK-JOS', year: '2024', category: 'Commercial', image: '/projects/Barbería Black-Jos/DSCF5712.jpg', coords: '33°02\'S 71°36\'W' },
   { id: 7, title: 'GERMAINE DE CAPUCCINI', year: '2025', category: 'Commercial', image: '/projects/Germaine de Capuccini/DSCF5978.jpg', coords: '33°03\'S 71°35\'W' },
-  { id: 8, title: 'GRAN FONDO PUCHUNCAVÍ', year: '2025', category: 'Evento', image: '/projects/Gran Fondo Puchuncaví/DSCF2085.JPG', coords: '32°43\'S 71°25\'W' },
+  { id: 8, title: 'GRAN FONDO PUCHUNCAVÍ', year: '2025', category: 'Evento', image: '/projects/Gran Fondo Puchuncaví/DSCF0520.JPG', coords: '32°43\'S 71°25\'W' },
   { id: 9, title: 'PADEL NUESTRO', year: '2023-2024', category: 'Commercial', image: '/projects/Padel Nuestro/PN (1).jpg', coords: '33°00\'S 71°34\'W' },
 ];
 
