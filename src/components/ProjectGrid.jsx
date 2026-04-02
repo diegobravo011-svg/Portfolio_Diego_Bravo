@@ -2,12 +2,15 @@ import React, { useState } from 'react';
 import './ProjectGrid.css';
 
 const projects = [
-  { id: 1, title: 'MATRIMONIO EMILIA & BENJAMÍN', year: '2025', category: 'Social', image: '/projects/Proyecto_1/DSCF2002.JPG' },
-  { id: 2, title: 'JK BURGER', year: '2024', category: 'Commercial', image: '/projects/Proyecto_2/DSCF2034.JPG' },
-  { id: 3, title: 'CLINICA DMR', year: '2022-2024', category: 'Commercial', image: '/projects/Proyecto_3/DSCF2076.JPG' },
-  { id: 4, title: 'CLINI-QUE', year: '2024', category: 'Commercial', image: '/projects/Proyecto_4/DSCF2085.JPG' },
-  { id: 5, title: 'HOTEL LAS CRUCES', year: '2024', category: 'Personal', image: '/projects/Proyecto_5/DSCF2080.JPG' },
-  { id: 6, title: 'DANIEL CANDIA', year: '2024', category: 'Editorial', image: '/projects/Proyecto_6/DSCF2252.JPG' },
+  { id: 1, title: 'BARBERÍA BLACK-JOS', year: '2024', category: 'Commercial', image: '/projects/Barbería Black-Jos/DSCF2076.JPG' },
+  { id: 2, title: 'CLINI-QUE (INSUMOS MEDICOS)', year: '2024', category: 'Commercial', image: '/projects/Clini-que (Insumos Medicos)/DSCF4164.JPG' },
+  { id: 3, title: 'CLINICA DMR', year: '2022-2024', category: 'Commercial', image: '/projects/Clinica DMR/DSCF0093.jpg' },
+  { id: 4, title: 'GERMAINE DE CAPUCCINI', year: '2024', category: 'Commercial', image: '/projects/Germaine de Capuccini/DSCF5978.jpg' },
+  { id: 5, title: 'GRAN FONDO PUCHUNCAVÍ', year: '2025', category: 'Evento', image: '/projects/Gran Fondo Puchuncaví/DSCF0119.JPG' },
+  { id: 6, title: 'JK BURGER', year: '2024', category: 'Commercial', image: '/projects/JK Burger/DSCF2080.JPG' },
+  { id: 7, title: 'MATRIMONIOS', year: '2024', category: 'Social', image: '/projects/Matrimonios/DSCF1262.JPG' },
+  { id: 8, title: 'PADEL NUESTRO', year: '2024', category: 'Commercial', image: '/projects/Padel Nuestro/DSCF2054.JPG' },
+  { id: 9, title: 'VIOLINISTA DANIEL CANDIA', year: '2024', category: 'Editorial', image: '/projects/Violinista Daniel Candia/DSCF5124.jpg' },
 ];
 
 const ProjectGrid = () => {
