@@ -104,9 +104,27 @@
 }
 
 @media (max-width: 768px) {
+  .sobre-mi-page {
+    padding: var(--spacing-lg) var(--spacing-md);
+  }
+
+  .sobre-mi-title {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: var(--spacing-md);
+  }
 
   .bio-container,
   .contact-footer {
     grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .profile-info {
+    align-items: center;
+  }
+
+  .bio-heading {
+    text-align: center;
   }
 }

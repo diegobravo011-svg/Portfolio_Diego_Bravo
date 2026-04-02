@@ -36,6 +36,12 @@ body {
   color: var(--text-black);
 }
 
+@media (max-width: 768px) {
+  body {
+    padding: var(--spacing-md) var(--spacing-sm);
+  }
+}
+
 h1, h2, h3 {
   font-family: 'Roboto Mono', monospace;
   text-transform: uppercase;
