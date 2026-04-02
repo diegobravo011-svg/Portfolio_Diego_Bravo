@@ -19,7 +19,7 @@ const ProjectGrid = () => {
       <div className="projects-header">
         <h2 className="section-label">PROYECTOS</h2>
         <p className="section-description">
-          Repertorio de los trabajos fotograficos mas destacados, desde eventos sociales hasta fotografia comercial y editioral.
+          Repertorio de mis trabajos fotográficos más destacados: desde eventos sociales hasta fotografía comercial y editorial.
         </p>
       </div>
 
