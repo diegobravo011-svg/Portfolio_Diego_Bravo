@@ -9,7 +9,7 @@ const projects = [
   { id: 5, title: 'VIOLINISTA DANIEL CANDIA', year: '2024-2025', category: 'Editorial', image: '/projects/Violinista Daniel Candia/DSCF5124.jpg', coords: '33°04\'S 71°37\'W' },
   { id: 6, title: 'BARBERÍA BLACK-JOS', year: '2024', category: 'Commercial', image: '/projects/Barbería Black-Jos/DSCF5712.jpg', coords: '33°02\'S 71°36\'W' },
   { id: 7, title: 'GERMAINE DE CAPUCCINI', year: '2025', category: 'Commercial', image: '/projects/Germaine de Capuccini/DSCF5978.jpg', coords: '33°03\'S 71°35\'W' },
-  { id: 8, title: 'GRAN FONDO PUCHUNCAVÍ', year: '2025', category: 'Evento', image: '/projects/Gran Fondo Puchuncaví/DSCF0085.JPG', coords: '32°43\'S 71°25\'W' },
+  { id: 8, title: 'GRAN FONDO PUCHUNCAVÍ', year: '2025', category: 'Evento', image: '/projects/Gran Fondo Puchuncaví/DSCF2085.JPG', coords: '32°43\'S 71°25\'W' },
   { id: 9, title: 'PADEL NUESTRO', year: '2023-2024', category: 'Commercial', image: '/projects/Padel Nuestro/PN (1).jpg', coords: '33°00\'S 71°34\'W' },
 ];
 
@@ -22,13 +22,13 @@ const ProjectGrid = () => {
           Repertorio de los trabajos fotograficos mas destacados, desde eventos sociales hasta fotografia comercial y editioral.
         </p>
       </div>
-      
+
       <div className="grid">
         {projects.map(project => (
           <div key={project.id} className="project-card fade-in">
             <div className="image-container">
               <img src={project.image} alt={project.title} className="project-image" />
-              
+
               <div className="tech-overlay">
                 <div className="panel-crema">
                   <div className="coord-lines"></div>
@@ -44,7 +44,7 @@ const ProjectGrid = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="content">
               <h3 className="project-title">{project.title}</h3>
             </div>
