@@ -18,8 +18,8 @@ const MountainHero = ({ onEnter }) => {
         scene.background = null; 
 
         const camera = new THREE.PerspectiveCamera(40, width / height, 0.1, 100);
-        camera.position.set(1.5, 1.2, 2.5);
-        camera.lookAt(0, 0.2, 0);
+        camera.position.set(0, 1.2, 2.8); // Centrado en X=0
+        camera.lookAt(0, 0.1, 0); // Mirando al centro
 
         // Alpha true hace que no tenga un fondo blanco cuadrado sólido
         const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
@@ -72,7 +72,7 @@ const MountainHero = ({ onEnter }) => {
         // Reducir el tamaño de la malla para que sea más pequeña
         pointsMesh.scale.set(0.65, 0.65, 0.65);
         pointsMesh.position.y = -0.3;
-        pointsMesh.position.x = 0.08; // Ajuste fino para centrar con la palabra "BIENVENIDO"
+        pointsMesh.position.x = 0; // Centrado total
         
         scene.add(pointsMesh);
 
