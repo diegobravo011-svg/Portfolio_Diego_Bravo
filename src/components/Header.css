@@ -54,3 +54,29 @@
     justify-content: center;
   }
 }
+
+.clickable {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.clickable:hover {
+  opacity: 0.7;
+}
+
+.copy-badge {
+  color: #008800;
+  font-weight: 800;
+  margin-left: 5px;
+  animation: fadeIn 0.3s ease;
+}
+
+.social-link {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+}
+
+.social-link:hover {
+  color: #666;
+}

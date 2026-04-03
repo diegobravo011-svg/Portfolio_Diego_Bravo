@@ -103,6 +103,34 @@
   opacity: 1;
 }
 
+.copyable-email {
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.copyable-email:hover {
+  color: var(--text-black);
+}
+
+.copy-badge-mini {
+  color: #008800;
+  font-size: 0.65rem;
+  font-weight: 700;
+  margin-left: 8px;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+
+.social-link-about {
+  color: var(--text-grey);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.social-link-about:hover {
+  color: var(--text-black);
+}
+
 @media (max-width: 768px) {
   .sobre-mi-page {
     padding: var(--spacing-lg) var(--spacing-md);

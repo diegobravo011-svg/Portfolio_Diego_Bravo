@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './SobreMi.css';
 
 const SobreMi = ({ onBack }) => {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = (text) => {
+    navigator.clipboard.writeText(text);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
   return (
     <div className="sobre-mi-page fade-in">
       <div className="container">
@@ -33,12 +41,16 @@ const SobreMi = ({ onBack }) => {
               <div className="contact-col">
                 <h3>Conecta</h3>
                 <p>Santiago, Chile</p>
-                <p>fotographydiego@gmail.com</p>
+                <p className="copyable-email" onClick={() => handleCopy('fotographydiego@gmail.com')}>
+                  fotographydiego@gmail.com {copied && <span className="copy-badge-mini">Copiado!</span>}
+                </p>
                 <p>+56961469174</p>
               </div>
               <div className="contact-col">
                 <h3>Social</h3>
-                <p>@diegobravonn</p>
+                <p>
+                  <a href="https://www.instagram.com/diegobravonn/" target="_blank" rel="noopener noreferrer" className="social-link-about">@diegobravonn</a>
+                </p>
               </div>
             </div>
           </div>
