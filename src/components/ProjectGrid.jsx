@@ -26,9 +26,9 @@ const ProjectGrid = () => {
                     <div className="tech-content">
                       <span className="coord-text">{project.coords}</span>
                       <div className="tech-meta">
-                        <span className="label">CATEGORY:</span>
+                        <span className="label">CATEGORÍA:</span>
                         <span className="value">{project.category}</span>
-                        <span className="label">PERIOD:</span>
+                        <span className="label">PERIODO:</span>
                         <span className="value">{project.year}</span>
                       </div>
                     </div>
