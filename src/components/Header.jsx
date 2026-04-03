@@ -2,12 +2,18 @@ import React, { useState } from 'react';
 import './Header.css';
 
 const Header = ({ projectCount, pageCount }) => {
-  const [copied, setCopied] = useState(false);
+  const [emailCopied, setEmailCopied] = useState(false);
+  const [phoneCopied, setPhoneCopied] = useState(false);
 
-  const handleCopy = (text) => {
+  const handleCopy = (text, type) => {
     navigator.clipboard.writeText(text);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    if (type === 'email') {
+      setEmailCopied(true);
+      setTimeout(() => setEmailCopied(false), 2000);
+    } else {
+      setPhoneCopied(true);
+      setTimeout(() => setPhoneCopied(false), 2000);
+    }
   };
 
   return (
@@ -23,16 +29,30 @@ const Header = ({ projectCount, pageCount }) => {
             <span className="value">{projectCount || 0}</span>
           </div>
           <div className="meta-item">
-            <span className="label">PÁGINAS</span>
+            <span className="label">ARCHIVOS</span>
             <span className="value">{pageCount || 0}</span>
           </div>
           <div className="meta-item">
             <span className="label">UBICACIÓN</span>
             <span className="value">SANTIAGO DE CHILE</span>
           </div>
-          <div className="meta-item clickable" onClick={() => handleCopy('fotographydiego@gmail.com')}>
-            <span className="label">CONTACTO {copied && <span className="copy-badge">COPIADO!</span>}</span>
-            <span className="value email-value">FOTOGRAPHYDIEGO@GMAIL.COM | +56961469174</span>
+          <div className="meta-item contact-meta">
+            <span className="label">CONTACTO</span>
+            <span className="value">
+              <span 
+                className="clickable-contact" 
+                onClick={() => handleCopy('fotographydiego@gmail.com', 'email')}
+              >
+                FOTOGRAPHYDIEGO@GMAIL.COM {emailCopied && <span className="copy-badge-header">COPIADO!</span>}
+              </span>
+              <span className="separator"> | </span>
+              <span 
+                className="clickable-contact" 
+                onClick={() => handleCopy('+56961469174', 'phone')}
+              >
+                +56961469174 {phoneCopied && <span className="copy-badge-header">COPIADO!</span>}
+              </span>
+            </span>
           </div>
           <div className="meta-item">
             <span className="label">SOCIAL</span>

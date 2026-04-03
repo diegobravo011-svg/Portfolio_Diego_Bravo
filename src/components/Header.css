@@ -55,19 +55,29 @@
   }
 }
 
-.clickable {
+.contact-meta .value {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.clickable-contact {
   cursor: pointer;
   transition: opacity 0.2s ease;
 }
 
-.clickable:hover {
-  opacity: 0.7;
+.clickable-contact:hover {
+  opacity: 0.6;
 }
 
-.copy-badge {
+.separator {
+  opacity: 0.3;
+}
+
+.copy-badge-header {
   color: #008800;
   font-weight: 800;
   margin-left: 5px;
+  font-size: 0.6rem;
   animation: fadeIn 0.3s ease;
 }
 

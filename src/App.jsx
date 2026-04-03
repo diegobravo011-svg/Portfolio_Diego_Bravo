@@ -6,12 +6,13 @@ import ProjectGrid from './components/ProjectGrid'
 import SobreMi from './components/SobreMi'
 import ProjectDetail from './components/ProjectDetail'
 import WelcomeScreen from './components/WelcomeScreen'
+import { projects } from './data/projects'
 import './App.css'
 
 function AppContent() {
   const navigate = useNavigate();
-  const projectCount = 9;
-  const pageCount = 6;
+  const projectCount = projects.length;
+  const pageCount = projects.length + 2; // Home + Sobre Mi + Proyectos
 
   return (
     <div className="app">
