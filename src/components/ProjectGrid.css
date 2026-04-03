@@ -2,6 +2,12 @@
   padding: var(--spacing-lg) 0;
 }
 
+.project-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .projects-header {
   margin-bottom: var(--spacing-lg);
   max-width: 600px;

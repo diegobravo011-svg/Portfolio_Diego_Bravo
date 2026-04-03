@@ -8,7 +8,7 @@ const SobreMi = ({ onBack }) => {
         <div className="sobre-mi-content">
           <div className="text-section">
             <h1 className="sobre-mi-title">Sobre mí.</h1>
-            
+
             <div className="bio-container">
               <div className="image-wrapper">
                 <img src="/Foto_Diego/Foto_diego.jpeg" alt="Diego Bravo" className="profile-img" />
@@ -17,7 +17,7 @@ const SobreMi = ({ onBack }) => {
                   <span className="profile-role">Fotógrafo</span>
                 </div>
               </div>
-              
+
               <div className="bio-text">
                 <h2 className="bio-heading">Geólogo y Fotógrafo.</h2>
                 <p>
