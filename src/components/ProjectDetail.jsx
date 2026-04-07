@@ -8,10 +8,20 @@ const ProjectDetail = () => {
   const navigate = useNavigate();
   const project = projects.find(p => p.id === id);
   const [selectedImage, setSelectedImage] = useState(null);
+  const [shuffledImages, setShuffledImages] = useState([]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+    if (project && project.images) {
+      // Fisher-Yates shuffle
+      const images = [...project.images];
+      for (let i = images.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [images[i], images[j]] = [images[j], images[i]];
+      }
+      setShuffledImages(images);
+    }
+  }, [id, project]);
 
   if (!project) {
     return (
@@ -51,7 +61,7 @@ const ProjectDetail = () => {
 
       <main className="gallery-container container">
         <div className="gallery-masonry">
-          {project.images.map((img, index) => {
+          {shuffledImages.map((img, index) => {
             const imgUrl = `/projects/${project.folder}/${img}`;
             return (
               <div 

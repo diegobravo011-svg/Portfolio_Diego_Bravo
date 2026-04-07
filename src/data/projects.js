@@ -9,7 +9,9 @@ export const projects = [
     folder: 'Germaine de Capuccini',
     images: [
       'DSCF5978.jpg', 'DSCF5983.jpg', 'DSCF5985.jpg', 'DSCF6051.jpg',
-      'DSCF6062.jpg', 'DSCF6107.jpg', 'DSCF6109.jpg', 'DSCF6110.jpg', 'DSCF6111.jpg'
+      'DSCF6062.jpg', 'DSCF6107.jpg', 'DSCF6109.jpg', 'DSCF6110.jpg', 
+      'DSCF6111.jpg', 'DSCF6127.jpg', 'DSCF6136.jpg', 'DSCF6148.jpg',
+      'DSCF6173.jpg', 'DSCF6202.jpg', 'DSCF6255.jpg', 'DSCF6542.jpg'
     ]
   },
   { 
@@ -36,14 +38,17 @@ export const projects = [
     folder: 'Matrimonios',
     images: [
       'DSCF1262.JPG', 'DSCF1312.JPG', 'DSCF2014.JPG', 'DSCF2679.jpg',
-      'DSCF2977.JPG', 'DSCF3177.jpg', 'DSCF3265.jpg', 'DSCF3512.JPG',
-      'DSCF3530.JPG', 'DSCF3531.JPG', 'DSCF3532.JPG', 'DSCF3967.JPG',
-      'DSCF3969.JPG', 'DSCF4062.JPG', 'DSCF4065.JPG', 'DSCF4066.JPG',
-      'DSCF4102.JPG', 'DSCF4103.JPG', 'DSCF4212.JPG', 'DSCF4213.JPG',
-      'DSCF4922.JPG', 'DSCF5035.JPG', 'DSCF5064.JPG', 'DSCF5075.JPG',
-      'DSCF5089.JPG', 'DSCF5113.jpg', 'DSCF5120.jpg', 'DSCF5123.jpg',
-      'DSCF5212.jpg', 'DSCF5242.jpg', 'DSCF5299.jpg', 'DSCF5303.jpg',
-      'DSCF5361.jpg', 'DSCF5363.jpg', 'DSCF5498.jpg', 'DSCF5525.jpg', 'DSCF5674.jpg'
+      'DSCF2977.JPG', 'DSCF3177.jpg', 'DSCF3265.jpg', 'DSCF3503.JPG',
+      'DSCF3512.JPG', 'DSCF3518.JPG', 'DSCF3530.JPG', 'DSCF3531.JPG',
+      'DSCF3532.JPG', 'DSCF3636.JPG', 'DSCF3789.JPG', 'DSCF3947.JPG',
+      'DSCF3967.JPG', 'DSCF3969.JPG', 'DSCF4062.JPG', 'DSCF4065.JPG',
+      'DSCF4066.JPG', 'DSCF4102.JPG', 'DSCF4103.JPG', 'DSCF4105.JPG',
+      'DSCF4212.JPG', 'DSCF4213.JPG', 'DSCF4216.JPG', 'DSCF4228.JPG',
+      'DSCF4246.JPG', 'DSCF4922.JPG', 'DSCF4964.JPG', 'DSCF5002.JPG',
+      'DSCF5035.JPG', 'DSCF5064.JPG', 'DSCF5075.JPG', 'DSCF5089.JPG',
+      'DSCF5113.jpg', 'DSCF5120.jpg', 'DSCF5123.jpg', 'DSCF5212.jpg',
+      'DSCF5242.jpg', 'DSCF5299.jpg', 'DSCF5303.jpg', 'DSCF5361.jpg',
+      'DSCF5363.jpg', 'DSCF5498.jpg', 'DSCF5525.jpg', 'DSCF5674.jpg'
     ]
   },
   { 
@@ -97,9 +102,9 @@ export const projects = [
     folder: 'Barbería Black-Jos',
     images: [
       'DSCF5712.jpg', 'DSCF5764.jpg', 'DSCF5772.jpg', 'DSCF5777.jpg',
-      'DSCF5782.jpg', 'DSCF5783.jpg', 'DSCF5787.jpg', 'DSCF5789.jpg',
-      'DSCF5793.jpg', 'DSCF5833.jpg', 'DSCF5843.jpg', 'IMG_6450.jpg',
-      'IMG_8181.jpg', 'IMG_8184.jpg'
+      'DSCF5782.jpg', 'DSCF5787.jpg', 'DSCF5789.jpg', 'DSCF5793.jpg',
+      'DSCF5833.jpg', 'DSCF5843.jpg', 'IMG_6450.jpg', 'IMG_8181.jpg',
+      'IMG_8184.jpg'
     ]
   },
   { 
@@ -125,9 +130,10 @@ export const projects = [
     coords: "33°27'S 70°40'W",
     folder: 'Clinica DMR',
     images: [
-      'DSCF0093.jpg', 'DSCF0099.jpg', 'DSCF0389.jpg', 'DSCF0489.jpg',
-      'DSCF0534.jpg', 'DSCF0557.jpg', 'DSCF4199.jpg', 'DSCF4227.jpg',
-      'DSCF4278.jpg', 'DSCF4317.jpg', 'DSCF4439-Editar.jpg', 'DSCF4508.jpg', 'DSCF5142.jpg'
+      'DSCF0489.jpg', 'DSCF0534.jpg', 'DSCF0557.jpg', 'DSCF2037.JPG',
+      'DSCF2083.JPG', 'DSCF2312.JPG', 'DSCF2521.JPG', 'DSCF2597.JPG',
+      'DSCF4199.jpg', 'DSCF4227.jpg', 'DSCF4278.jpg', 'DSCF4317.jpg',
+      'DSCF4439-Editar.jpg', 'DSCF4508.jpg', 'DSCF5142.jpg'
     ]
   },
 ];
